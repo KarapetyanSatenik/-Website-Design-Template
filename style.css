@@ -3,8 +3,8 @@ body {
     font-family: 'Vollkorn', serif;
 }
 
-div {
-    background-image: url(./Black.jpg);
+#black-background {
+    background-image: url(./photos/Black.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -23,11 +23,13 @@ div {
     position: absolute;
     top: 90%;
     right: 35%;
-    padding: 1% 4%;
+    padding: 10px 4%;
     background-color: #f7ea2f83;
-    border: none;
+    border-radius: 50px;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 #triangle-right:hover {
@@ -38,11 +40,13 @@ div {
     position: absolute;
     top: 90%;
     left: 35%;
-    padding: 1% 4%;
+    padding: 10px 4%;
     background-color: #f7ea2f83;
-    border: none;
+    border-radius: 50px;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 #triangle-left:hover {
@@ -55,4 +59,34 @@ div {
     width: 60%;
     top: 12%;
     left: 20%;
+}
+
+main {
+    background-image: url(./photos/white.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Sat-Arm-photo {
+    background-image: url(./photos/_MG_8866.jpg);
+    background-size: cover;
+    right: 17%;
+    width: 378px;
+    height: 378px;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    margin: 0% 10%;
+}
+
+#circle {
+    width: 290px;
+    height: 290px;
+    background-color: #f7eb2f;
+    border-radius: 50% !important;
+    margin-bottom: 20%;
+    margin-right: 10%;
 }
