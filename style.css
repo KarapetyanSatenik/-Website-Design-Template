@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Vollkorn', serif;
 }
 
 div {
@@ -13,28 +14,45 @@ div {
 #first-header {
     position: absolute;
     color: #f7eb2f;
-    padding-top: 7%;
-    padding-left: 30%;
+    left: 30%;
+    font-size: 40px;
+    font-weight: 100;
 }
 
 #triangle-right {
     position: absolute;
-    top: 80%;
+    top: 90%;
     right: 35%;
     padding: 1% 4%;
-    background-color: #f7eb2f;
+    background-color: #f7ea2f83;
     border: none;
     font-weight: bold;
     font-size: 20px;
 }
 
+#triangle-right:hover {
+    background-color: #f7eb2f
+}
+
 #triangle-left {
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 35%;
     padding: 1% 4%;
-    background-color: #f7eb2f;
+    background-color: #f7ea2f83;
     border: none;
     font-weight: bold;
     font-size: 20px;
+}
+
+#triangle-left:hover {
+    background-color: #f7eb2f
+}
+
+#course-photo {
+    position: absolute;
+    background-size: cover;
+    width: 60%;
+    top: 12%;
+    left: 20%;
 }
