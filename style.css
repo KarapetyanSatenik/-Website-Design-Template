@@ -1,92 +1,200 @@
-body {
-    margin: 0;
-    font-family: 'Vollkorn', serif;
-}
-
-#black-background {
-    background-image: url(./photos/Black.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
-#first-header {
-    position: absolute;
-    color: #f7eb2f;
-    left: 30%;
-    font-size: 40px;
-    font-weight: 100;
-}
-
-#triangle-right {
-    position: absolute;
-    top: 90%;
-    right: 35%;
-    padding: 10px 4%;
-    background-color: #f7ea2f83;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-#triangle-right:hover {
-    background-color: #f7eb2f
-}
-
-#triangle-left {
-    position: absolute;
-    top: 90%;
-    left: 35%;
-    padding: 10px 4%;
-    background-color: #f7ea2f83;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-#triangle-left:hover {
-    background-color: #f7eb2f
-}
-
-#course-photo {
-    position: absolute;
-    background-size: cover;
-    width: 60%;
-    top: 12%;
-    left: 20%;
-}
-
-main {
-    background-image: url(./photos/white.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-#Sat-Arm-photo {
-    background-image: url(./photos/_MG_8866.jpg);
-    background-size: cover;
-    right: 17%;
-    width: 378px;
-    height: 378px;
-    background-position: 50% 50%;
-    border-radius: 50% !important;
-    margin: 0% 10%;
-}
-
-#circle {
-    width: 290px;
-    height: 290px;
-    background-color: #f7eb2f;
-    border-radius: 50% !important;
-    margin-bottom: 20%;
-    margin-right: 10%;
-}
+    body {
+        margin: 0;
+    }
+    
+    #black-background {
+        font-family: 'Source Code Pro', monospace;
+        background-image: url(./photos/Black.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    
+    #first-header {
+        position: absolute;
+        color: #f7eb2f;
+        left: 27%;
+        font-size: 40px;
+        font-weight: 100;
+        margin-top: 3%;
+    }
+    
+    #triangle-right {
+        position: absolute;
+        top: 82%;
+        right: 35%;
+        padding: 10px 4%;
+        background-color: #f7ea2f83;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #triangle-right:hover {
+        background-color: #f7eb2f
+    }
+    
+    #triangle-left {
+        position: absolute;
+        top: 82%;
+        left: 35%;
+        padding: 10px 4%;
+        background-color: #f7ea2f83;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #triangle-left:hover {
+        background-color: #f7eb2f
+    }
+    
+    #course-photo {
+        position: absolute;
+        background-size: cover;
+        width: 40%;
+        top: 25%;
+        left: 30%;
+    }
+    
+    main {
+        background-image: url(./photos/white.jpg);
+        background-size: cover;
+        padding: 2% 0%;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        font-family: sans-serif;
+    }
+    
+    #Sat-Arm-photo {
+        position: absolute;
+        background-image: url(./photos/team.jpg);
+        background-size: cover;
+        width: 380px;
+        height: 380px;
+        background-position: 50% 50%;
+        border-radius: 50% !important;
+        right: 15%;
+        margin-top: 12%;
+    }
+    
+    #circle {
+        position: absolute;
+        width: 290px;
+        height: 290px;
+        background-color: #f7eb2f;
+        border-radius: 50% !important;
+        left: 25%;
+        top: 10%;
+    }
+    
+    #header-about {
+        font-size: 70px;
+    }
+    
+    #text-about-team {
+        position: absolute;
+        width: 40%;
+        height: 40vh;
+        font-size: 22px;
+        margin-top: 12%;
+        margin-left: 5%;
+        z-index: 2;
+    }
+    
+    section {
+        background-color: #292d33;
+        width: 100%;
+        height: 110vh;
+        position: relative;
+        padding: 5% 0%;
+        font-family: sans-serif;
+    }
+    
+    section img {
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        object-fit: cover;
+        margin-left: 5%;
+    }
+    
+    section #about-plan-Armine {
+        position: absolute;
+        background-color: rgba(29, 36, 36, 0);
+        width: 45%;
+        height: 80%;
+        background-size: cover;
+        object-fit: cover;
+        margin-left: 45%;
+        margin-top: 3%;
+    }
+    
+    section #about-plan-Armine div {
+        background-color: white;
+        padding: 2%;
+        margin: 2%;
+    }
+    
+    section #about-plan-Armine p {
+        line-height: 22px;
+    }
+    
+    section #about-plan-Armine h2 {
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+    
+    aside {
+        background-image: url(./photos/white.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 110vh;
+        position: relative;
+        padding: 5% 0%;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    aside .img {
+        background-image: url(./photos/satenik.jpg);
+        background-size: cover;
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        object-fit: cover;
+        margin-left: 45%;
+    }
+    
+    aside #about-plan-Satenik {
+        position: absolute;
+        background-color: rgba(29, 36, 36, 0);
+        width: 45%;
+        height: 80%;
+        background-size: cover;
+        object-fit: cover;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    aside #about-plan-Satenik div {
+        background-color: white;
+        padding: 2%;
+        margin: 2%;
+    }
+    
+    aside #about-plan-Satenik p {
+        line-height: 22px;
+    }
+    
+    aside #about-plan-Satenik h2 {
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
