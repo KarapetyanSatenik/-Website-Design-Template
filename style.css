@@ -2,8 +2,42 @@
         margin: 0;
     }
     
+    body {
+        /* position: relative; */
+        /* background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed; */
+        /* background-size: cover; */
+        /* min-width: 500px; */
+        /* min-height: 200px; */
+        /* color: #fff; */
+        font-family: 'Montserrat';
+        height: 100vmax;
+    }
+    
+    .nav {
+        background: rgba(0, 0, 0, 0.50);
+        width: 100%;
+        height: 11vh;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        z-index: 7;
+    }
+    
+    .nav a {
+        color: white;
+        padding: 11px 39px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .nav a:hover {
+        color: #f7eb2f;
+    }
+    
     #black-background {
-        font-family: 'Source Code Pro', monospace;
+        /* font-family: 'Source Code Pro', monospace; */
         background-image: url(./photos/Black.jpg);
         background-size: cover;
         width: 100%;
@@ -59,7 +93,7 @@
         background-size: cover;
         width: 40%;
         top: 25%;
-        left: 30%;
+        left: 28%;
     }
     
     main {
@@ -69,7 +103,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        font-family: sans-serif;
+        /* font-family: sans-serif; */
     }
     
     #Sat-Arm-photo {
@@ -91,7 +125,7 @@
         background-color: #f7eb2f;
         border-radius: 50% !important;
         left: 25%;
-        top: 10%;
+        top: 18%;
     }
     
     #header-about {
@@ -114,7 +148,7 @@
         height: 110vh;
         position: relative;
         padding: 5% 0%;
-        font-family: sans-serif;
+        /* font-family: sans-serif; */
     }
     
     section img {
@@ -152,18 +186,18 @@
         letter-spacing: 4px;
     }
     
-    aside {
+    article {
         background-image: url(./photos/white.jpg);
         background-size: cover;
         width: 100%;
         height: 110vh;
         position: relative;
         padding: 5% 0%;
-        font-family: Montserrat, sans-serif;
+        /* font-family: Montserrat, sans-serif; */
     }
     
-    aside .img {
-        background-image: url(./photos/satenik.jpg);
+    article .img {
+        background-image: url(./photos/man2.jpg);
         background-size: cover;
         position: absolute;
         width: 50%;
@@ -172,7 +206,7 @@
         margin-left: 45%;
     }
     
-    aside #about-plan-Satenik {
+    article #about-plan-Satenik {
         position: absolute;
         background-color: rgba(29, 36, 36, 0);
         width: 45%;
@@ -183,18 +217,54 @@
         margin-top: 2%;
     }
     
-    aside #about-plan-Satenik div {
+    article #about-plan-Satenik div {
         background-color: white;
         padding: 2%;
         margin: 2%;
     }
     
-    aside #about-plan-Satenik p {
+    article #about-plan-Satenik p {
         line-height: 22px;
     }
     
-    aside #about-plan-Satenik h2 {
+    article #about-plan-Satenik h2 {
         font-weight: 600;
         font-size: 24px;
-        letter-spacing: 4px;
+        /* letter-spacing: 4px; */
+    }
+    
+    .first-footer {
+        background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./photos/first-footer-photo.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* font-family: 'Open Sans', sans-serif; */
+        font-weight: bold;
+    }
+    
+    .first-footer div {
+        background-color: rgba(0, 0, 0, 0);
+        width: 40%;
+        color: white;
+    }
+    
+    .first-footer .first-div {
+        align-self: flex-end;
+    }
+    
+    .first-footer div p {
+        font-size: 20px;
+        /* letter-spacing: 3px; */
+        /* word-spacing: 3px; */
+        line-height: 35px;
+        font-weight: 500;
+    }
+    
+    .first-footer div h2 {
+        color: #f7eb2f;
+        font-size: 40px;
+        font-family: 'Source Code Pro', monospace;
     }
