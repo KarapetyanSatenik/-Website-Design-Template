@@ -1,16 +1,6 @@
     body {
         margin: 0;
-    }
-    
-    body {
-        /* position: relative; */
-        /* background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed; */
-        /* background-size: cover; */
-        /* min-width: 500px; */
-        /* min-height: 200px; */
-        /* color: #fff; */
         font-family: 'Montserrat';
-        height: 100vmax;
     }
     
     .nav {
@@ -57,7 +47,7 @@
     #triangle-right {
         position: absolute;
         top: 82%;
-        right: 35%;
+        right: 43%;
         padding: 10px 4%;
         background-color: #f7ea2f83;
         border-radius: 50px;
@@ -68,23 +58,6 @@
     }
     
     #triangle-right:hover {
-        background-color: #f7eb2f
-    }
-    
-    #triangle-left {
-        position: absolute;
-        top: 82%;
-        left: 35%;
-        padding: 10px 4%;
-        background-color: #f7ea2f83;
-        border-radius: 50px;
-        font-weight: bold;
-        font-size: 20px;
-        text-decoration: none;
-        color: black;
-    }
-    
-    #triangle-left:hover {
         background-color: #f7eb2f
     }
     
@@ -108,7 +81,7 @@
     
     #Sat-Arm-photo {
         position: absolute;
-        background-image: url(./photos/team.jpg);
+        background-image: url(.//photos/team.jpg);
         background-size: cover;
         width: 380px;
         height: 380px;
@@ -140,6 +113,7 @@
         margin-top: 12%;
         margin-left: 5%;
         z-index: 2;
+        line-height: 35px;
     }
     
     section {
@@ -159,7 +133,7 @@
         margin-left: 5%;
     }
     
-    section #about-plan-Armine {
+    section #about-plan-man {
         position: absolute;
         background-color: rgba(29, 36, 36, 0);
         width: 45%;
@@ -167,20 +141,19 @@
         background-size: cover;
         object-fit: cover;
         margin-left: 45%;
-        margin-top: 3%;
     }
     
-    section #about-plan-Armine div {
+    section #about-plan-man div {
         background-color: white;
         padding: 2%;
         margin: 2%;
     }
     
-    section #about-plan-Armine p {
+    section #about-plan-man p {
         line-height: 22px;
     }
     
-    section #about-plan-Armine h2 {
+    section #about-plan-man h2 {
         font-weight: 600;
         font-size: 24px;
         letter-spacing: 4px;
@@ -197,7 +170,7 @@
     }
     
     article .img {
-        background-image: url(./photos/man2.jpg);
+        background-image: url(./photos/girls.jpg);
         background-size: cover;
         position: absolute;
         width: 50%;
