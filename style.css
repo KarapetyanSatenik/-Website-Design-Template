@@ -99,7 +99,27 @@
             border-radius: 50% !important;
             left: 25%;
             top: 18%;
+            animation-name: circle;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
         }
+
+          
+          @-webkit-keyframes circle {
+            0% {
+              -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+              -webkit-transform-origin: 125% 125%;
+              transform-origin: 125% 125%;
+            }
+            100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+              -webkit-transform-origin: 125% 125%;
+              transform-origin: 125% 125%;
+            }
+          }
+          
         
         #header-about {
             font-size: 70px;
@@ -359,3 +379,5 @@
             color: #f7eb2f;
             font-size: 50px;
         }
+
+        
