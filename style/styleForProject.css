@@ -1,0 +1,43 @@
+@import url(../style/normalize.css);
+body {
+  font-family: "Source Sans Pro", "Hiragino Sans GB", "Microsoft JhengHei", arial, helvetica, sans-serif;
+}
+.nav {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 900;
+}
+.nav a {
+  letter-spacing: 3px;
+  color: white;
+  padding: 11px 39px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #f7eb2f;
+}
+.first-header {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../photos/epphpto.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-header h2 {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.first-header p {
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+}
