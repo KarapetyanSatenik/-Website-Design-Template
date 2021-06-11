@@ -1,9 +1,9 @@
 @import url(../style/normalize.css);
 body{
-    font-family: "Source Sans Pro", "Hiragino Sans GB", "Microsoft JhengHei", arial, helvetica, sans-serif;
+    font-family: "Source Sans Pro", "Hiragino Sans GB", "Microsoft JhengHei", arial, helvetica, sans-serif ; 
 }
 .nav {
-    background: rgba(0, 0, 0, 0.50);
+    background: rgb(38, 56, 82);
     width: 100%;
     height: 11vh;
     display: flex;
@@ -44,5 +44,40 @@ body{
         
     }
   
+
+}
+.first-main{
+    width: 100%;
+    height: 48vh;
+    background-color:rgb(38, 56, 82);
+   display: flex;
+   align-items: center;
+
+  div{
+  padding: 5%;
+  height: 55%;
+  width: 100%;
+  
+  &:hover{
+background-color:#f7eb2f ;
+inset: 0px;
+    transform: translateY(-100%);
+    transition: transform 5s ease-out 0s;
+  }
+  img{
+      width: 75%;
+  }
+  .icon-about-engenering{
+          width: 59%;
+     padding-left:25px;
+      }
+  }
+  
+  div p{
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  }
 
 }
