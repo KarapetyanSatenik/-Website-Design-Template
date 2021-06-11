@@ -359,12 +359,3 @@
             color: #f7eb2f;
             font-size: 50px;
         }
-        
-        .message {
-            width: 5%;
-            height: 5vh;
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            /* margin: 10; */
-        }
