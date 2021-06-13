@@ -96,8 +96,11 @@ body {
   font-weight: bold;
 }
 .first-footer div p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
+}
+.first-footer div p:hover {
+  text-decoration: underline;
 }
 .first-footer .first-div-in-footer {
   grid-row: span 3;
@@ -108,6 +111,9 @@ body {
 .first-footer .first-div-in-footer p {
   font-size: 20px;
   font-weight: 100;
+}
+.first-footer .first-div-in-footer p:hover {
+  text-decoration: none;
 }
 .first-footer .first-div-in-footer h2 {
   padding-left: 10px;
@@ -146,6 +152,7 @@ body {
 #second-footer {
   width: 100%;
   height: 70vh;
+  background-color: #263852;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,4 +176,77 @@ body {
 }
 #second-footer a:hover {
   text-decoration: underline;
+}
+.third-footer {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  background-image: url(../photos/white.jpg);
+  background-size: cover;
+}
+.third-footer .first-div {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.third-footer .first-photo {
+  position: absolute;
+  background-image: url(../photos/derr-min.jpg);
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 50% !important;
+  right: 6%;
+  top: 5%;
+}
+.third-footer .second-photo {
+  background-color: #7879ee;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+}
+.third-footer .second-div {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.third-footer .first-text {
+  position: absolute;
+  width: 80%;
+  height: 30%;
+  right: 6%;
+  top: 70%;
+  font-size: 18px;
+  color: grey;
+}
+.third-footer .first-text h2 {
+  font-size: 25px;
+}
+.third-footer h1 {
+  position: absolute;
+  font-size: 86px;
+  font-family: Montserrat, sans-serif;
+  color: #7879ee;
+}
+.third-footer .third-photo {
+  position: absolute;
+  background-image: url(../photos/workers.jpg);
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 50% !important;
+  right: 28%;
+  top: 42%;
+}
+.third-footer .fourth-photo {
+  position: absolute;
+  background-color: #7879ee;
+  width: 85%;
+  height: 40%;
+  top: 60%;
+  right: 0;
 }

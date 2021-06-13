@@ -106,8 +106,11 @@ width: 100%;
         
      }
      p{  
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
+        &:hover{
+                text-decoration: underline;
+            }
         
      }
     }
@@ -119,6 +122,9 @@ width: 100%;
        p{
            font-size: 20px;
            font-weight: 100;
+           &:hover{
+               text-decoration: none;
+           }
        }
        h2{
            padding-left: 10px;
@@ -178,6 +184,7 @@ width: 100%;
 #second-footer{
     width: 100%;
     height: 70vh;
+    background-color:rgb(38, 56, 82);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,4 +209,83 @@ width: 100%;
             text-decoration: underline;
         }
     }
+}
+
+.third-footer{
+width: 100%;
+height: 110vh;
+display: flex;
+background-image: url(../photos/white.jpg);
+background-size: cover;
+
+.first-div{
+    width: 50%;
+    height: 100%;
+ 
+    position: relative;
+}
+.first-photo{
+    position: absolute;
+    background-image:url(../photos/derr-min.jpg);
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    right: 6%;
+    top: 5%;
+}
+.second-photo{
+    background-color: #7879ee;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+}
+.second-div{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.first-text{
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    right: 6%;
+    top: 70%;
+    font-size: 18px; 
+    color: grey;
+    h2{
+        font-size: 25px;
+    }
+
+
+}
+h1{
+    position: absolute;
+    font-size: 86px;
+    font-family: Montserrat,sans-serif;
+    color:#7879ee;
+}
+.third-photo{
+    position: absolute;
+    background-image:url(../photos/workers.jpg);
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    right: 28%;
+    top: 42%;
+   
+}
+.fourth-photo{
+    position: absolute;
+    background-color: #7879ee;
+    width: 85%;
+    height: 40%;
+    top: 60%;
+    right: 0;
+}
 }
