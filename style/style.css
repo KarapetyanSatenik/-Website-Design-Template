@@ -34,7 +34,7 @@ body {
 
 #black-background {
     /* font-family: 'Source Code Pro', monospace; */
-    background-image: url(./photos/Black.jpg);
+    background-image: url(../photos/Black.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -76,7 +76,7 @@ body {
 }
 
 main {
-    background-image: url(./photos/white.jpg);
+    background-image: url(../photos/white.jpg);
     background-size: cover;
     padding: 2% 0%;
     width: 100%;
@@ -87,7 +87,7 @@ main {
 
 #Sat-Arm-photo {
     position: absolute;
-    background-image: url(.//photos/team.jpg);
+    background-image: url(..//photos/team.jpg);
     background-size: cover;
     width: 380px;
     height: 380px;
@@ -198,7 +198,7 @@ section #about-plan-man h2 {
 }
 
 article {
-    background-image: url(./photos/white.jpg);
+    background-image: url(../photos/white.jpg);
     background-size: cover;
     width: 100%;
     height: 110vh;
@@ -208,7 +208,7 @@ article {
 }
 
 article .img {
-    background-image: url(./photos/girls.jpg);
+    background-image: url(../photos/girls.jpg);
     background-size: cover;
     position: absolute;
     width: 50%;
@@ -245,7 +245,7 @@ article #about-plan-Satenik h2 {
 }
 
 .first-footer {
-    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./photos/first-footer-photo.jpg);
+    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../photos/first-footer-photo.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -299,7 +299,7 @@ article #about-plan-Satenik h2 {
 }
 
 #second-footer {
-    background-image: url(./photos/white.jpg);
+    background-image: url(../photos/white.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -309,7 +309,7 @@ article #about-plan-Satenik h2 {
 }
 
 #second-footer .footer-photo {
-    background-image: url(./photos/head.jpg);
+    background-image: url(../photos/head.jpg);
     background-size: cover;
     width: 50%;
     height: 100%;
