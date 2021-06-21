@@ -2,7 +2,7 @@
 body {
   font-family: "Source Sans Pro", "Hiragino Sans GB", "Microsoft JhengHei", arial, helvetica, sans-serif;
 }
-.nav {
+.navigation-service {
   background: #263852;
   width: 100%;
   height: 11vh;
@@ -12,15 +12,19 @@ body {
   font-family: 'MuseoModerno', cursive;
   font-weight: 900;
 }
-.nav a {
+.navigation-service a {
   letter-spacing: 3px;
   color: white;
   padding: 11px 39px;
   font-size: 20px;
   text-decoration: none;
 }
-.nav a:hover {
+.navigation-service a:hover {
   color: #f7eb2f;
+}
+.navigation-service .icon-for-equal {
+  margin-left: 20%;
+  font-size: 20px;
 }
 .first-header {
   width: 100%;
